@@ -16,4 +16,6 @@ def insertion_sort(a)
 end
 
 a=[1,12,3,2,3]
-p insertion_sort(a)
+puts 'Before Sorting :' + a.join(' ') 
+a = insertion_sort(a)
+puts 'After Sorting :' +a.join(' ')
